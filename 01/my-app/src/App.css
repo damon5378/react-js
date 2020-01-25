@@ -14,36 +14,8 @@
   grid-gap: 10px;
 }
 
-.header{
-  grid-area: header;
-  background-color: green;
-}
 
-.header img{
-  width: 40px;
-  height: 40px;
-  margin-left: 15px;
-  margin-top: 5px;
-}
 
-.nav{
-  grid-area: nav;
-  background-color: rgb(115, 177, 34);
-  padding: 20px 20px 0 20px;
-}
-.nav a{
-  text-decoration: none;
-  color: lavenderblush;
-}
-.nav div{
-  margin-bottom: 5px;
-}
 
-.content{
-  grid-area: content;
-  background-color: rgb(177, 22, 143);
-}
 
-.profile__wrapper{
-  padding: 20px 0 20px 20px;
-}
+

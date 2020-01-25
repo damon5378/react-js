@@ -1,0 +1,19 @@
+.item{
+  color: rgb(10, 240, 10);
+}
+.item img{
+  width: 53px;
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.span{
+  margin-left: 10px;
+}
+.span__wrapper{
+  padding-bottom: 10px;
+}
+.post{
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
