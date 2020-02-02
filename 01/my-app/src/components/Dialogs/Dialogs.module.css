@@ -4,11 +4,16 @@
 }
 
 .dialog{
-
+    
 }
 
 .dialogsItems{
-    padding: 10px;
+    padding: 20px 0 0 20px;
+}
+.dialogsItems a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .dialogsItems .active{
@@ -16,7 +21,9 @@
 }
 
 .messages{
-    padding: 10px;
+    padding: 20px 0 0 20px;
+    font-size: 18px;
+    color: aliceblue;
 }
 
 .message{

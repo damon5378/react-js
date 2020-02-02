@@ -7,6 +7,7 @@
 .app-wrapper{
   display: grid;
   width: 1200px;
+  height: 100%;
   margin: 0 auto;
   grid-template-areas: "header header" "nav content";
   grid-template-rows: 60px 1fr;
@@ -16,7 +17,15 @@
 
 .app-wrapper-content{
   grid-area: content;
-  background-color: rgb(177, 22, 143);
+  background-color: rgba(41,1,1,.4);
+  box-shadow: 5px 10px 20px rgba(52,76,191,0.5);
+}
+
+#root{
+  background-image: url(../src/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 

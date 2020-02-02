@@ -1,11 +1,20 @@
 .header{
   grid-area: header;
-  background-color: green;
+  background-color: rgba(31,2,2,.7);
+  box-shadow: 5px 10px 20px rgba(52,76,191,0.5);
 }
 
-.header img{
+/* .headerLogo{
+  background-image: url(../../img/logo.png);
   width: 40px;
   height: 40px;
+  margin-left: 15px;
+  margin-top: 5px;
+} */
+
+.header img{
+  width: 100px;
+  height: 45px;
   margin-left: 15px;
   margin-top: 5px;
 }

@@ -4,7 +4,7 @@ import s from './Header.module.css';
 const Header = () => {
     return (
         <header className = {s.header}>
-        <img src = 'https://www.freeiconspng.com/uploads/flame-logo-png-30.png'></img>
+        <img src = 'https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo-title-dark.png'></img>
       </header>
     );
 }

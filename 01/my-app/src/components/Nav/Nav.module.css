@@ -1,10 +1,16 @@
 .nav{
   grid-area: nav;
-  background-color: rgb(115, 177, 34);
+  background-color: rgba(31,2,2,.7);
+  box-shadow: 5px 10px 20px rgba(52,76,191,0.5);
   padding: 20px;
 }
 .item{
   margin-bottom: 5px;
+  background-color: rgba(31,2,2,.7);
+  box-shadow: 5px 10px 20px rgba(52,76,191,0.5);
+  padding: 7px 15px;
+  text-align: center;
+  border-radius: 25px;
 }
 
 .item a{
